@@ -211,11 +211,11 @@ public class WordGameFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void initButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_initButtonActionPerformed
-        Collections.addAll(names, "Rudolph", "Santa");
-        Collections.addAll(verbs, "flew", "crashed");
-        Collections.addAll(adverbs, "quickly", "slowly");
-        Collections.addAll(nouns, "mountain", "snowman");
-        Collections.addAll(adjectives, "huge", "abominable");
+        Collections.addAll(names, "Lil Pump", "Gamer");
+        Collections.addAll(verbs, "Dabbed unironicly", "notices bulge");
+        Collections.addAll(adverbs, "fastly", "lowly");
+        Collections.addAll(nouns, "Tilted Towers", "Minecraft");
+        Collections.addAll(adjectives, "Homosexual", "Hetrosextual");
         initButton.setEnabled(false);
     }//GEN-LAST:event_initButtonActionPerformed
 
