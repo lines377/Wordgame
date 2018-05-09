@@ -119,6 +119,11 @@ public class WordGameFrame extends javax.swing.JFrame {
         });
 
         jButton1.setText("Add");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Add");
 
@@ -278,11 +283,15 @@ public class WordGameFrame extends javax.swing.JFrame {
         outputBox.setText( names.get(rn.nextInt(names.size()))
             + " " + adverbs.get(rn.nextInt(names.size()))
             + " " + verbs.get(rn.nextInt(names.size()))
-            + " on top of his "  + adjectives.get(rn.nextInt(names.size()))
+            + " on top of his cat's "  + adjectives.get(rn.nextInt(names.size()))
             + " " + nouns.get(rn.nextInt(names.size()))
             + " escaping a " + adjectives.get(rn.nextInt(names.size()))
             + " " + nouns.get(rn.nextInt(names.size())) + " :3  <3");
     }//GEN-LAST:event_displayButtonActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
